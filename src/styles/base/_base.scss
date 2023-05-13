@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    
+}
+header .header-link {
+    margin: auto 0;
+    // display: inline-block;
+    // align-items: center;
+  }
+
+.active-page{
+    font-weight: bolder;
+    color: red;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
+
+
+@media (max-width:480px){
+    
+    header{
+        flex-direction: column;
+    }
+    header h2{
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}

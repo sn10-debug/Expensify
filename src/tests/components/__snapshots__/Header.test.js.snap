@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking the Header Content 1`] = `
+<header>
+  <h2>
+    Expensify
+  </h2>
+  <div
+    className="header-link"
+  >
+    <NavLink
+      activeClassName="active-page"
+      ariaCurrent="true"
+      exact={true}
+      to="/"
+    >
+      Dashboard
+    </NavLink>
+  </div>
+  <div
+    className="header-link"
+  >
+    <NavLink
+      activeClassName="active-page"
+      ariaCurrent="true"
+      exact={true}
+      to="/create"
+    >
+      Create Expense
+    </NavLink>
+  </div>
+  <div
+    className="header-link"
+  >
+    <NavLink
+      activeClassName="active-page"
+      ariaCurrent="true"
+      exact={true}
+      to="/edit"
+    >
+      Edit Expense
+    </NavLink>
+  </div>
+  <div
+    className="header-link"
+  >
+    <NavLink
+      activeClassName="active-page"
+      ariaCurrent="true"
+      exact={true}
+      to="/help"
+    >
+      Help
+    </NavLink>
+  </div>
+  <div
+    className="header-link"
+  >
+    <NavLink
+      activeClassName="active-page"
+      ariaCurrent="true"
+      exact={true}
+      to="/about"
+    >
+      About
+    </NavLink>
+  </div>
+</header>
+`;

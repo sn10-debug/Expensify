@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Expense List 1`] = `
+<div>
+  <p>
+    Expense List : 
+  </p>
+  <React.Memo
+    amount={30000}
+    createDate={"2022-09-30T18:30:00.000Z"}
+    description="Monthly Water bill"
+    id="20"
+    key="20"
+    name="Water Bill"
+  />
+  <React.Memo
+    amount={40000}
+    createDate={"2022-09-30T18:30:00.000Z"}
+    description="Monthly Gas bill"
+    id="20"
+    key="20"
+    name="Gas Bill"
+  />
+</div>
+`;
